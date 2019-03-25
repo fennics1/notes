@@ -1,14 +1,15 @@
 import React from 'react';
 
 import PrivateHeader from './PrivateHeader';
+import NoteList from './NoteList';
 
 //stateless functional component
 export default () => {
   return (
     <div>
-      <PrivateHeader title="Your Link"/>
+      <PrivateHeader title="Dashboard"/>
       <div className="page-content">
-        Dashboard page content.
+        <NoteList/>
       </div>
     </div>
   );
