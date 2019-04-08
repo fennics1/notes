@@ -52,7 +52,7 @@ export class Signup extends React.Component {
       </div>
     );
   }
-}
+};
 
 Signup.propTypes = {
   createUser: PropTypes.func.isRequired
