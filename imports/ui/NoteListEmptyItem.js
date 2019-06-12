@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const NoteListEmptyItem = () => {
   return (
     <div>
-      <p> no shit here. create a note to get started!</p>
+      <p className="empty-item">Create a note to get started!</p>
     </div>
   );
 };
